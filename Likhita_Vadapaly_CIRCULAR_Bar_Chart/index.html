@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSC4014 Interactive visualisation</title>
+
+    <!-- Load styles -->
+    <link rel="stylesheet" href="./styles/index.css" />
+
+    <!-- Load d3.js -->
+    <script src="https://d3js.org/d3.v6.js"></script>
+  </head>
+  <body>
+    <!-- chart mounts in here -->
+    <div class="x-center max-content my-4" id="chart_container">
+      <!-- Chart header -->
+      <h2 class="text-center">
+        Profit per State based on products
+      </h2>
+      <br>
+      <div id="data">
+        <label>Product</label>
+        <br>
+        <br>
+        <select name="options" id="">
+          <!-- <option disabled>Select year</option> -->
+        </select>
+      </div>
+    </br>
+    </div>
+
+    <!--Load graph script-->
+    <script src="./js/index.js"></script>
+  </body>
+</html>
