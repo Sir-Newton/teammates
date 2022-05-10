@@ -1,6 +1,6 @@
 // chart dimensions
 const MARGIN = Object.freeze({ top: 50, right: 20, bottom: 70, left: 30 });
-const WIDTH = 1340 - MARGIN.left - MARGIN.right;
+const WIDTH = 1140 - MARGIN.left - MARGIN.right;
 const HEIGHT = 550 - MARGIN.top - MARGIN.bottom;
 const INNER_RADIUS = 70;
 const OUTER_RADIUS = Math.min(WIDTH, HEIGHT) / 2; // the outerRadius goes from the middle of the SVG area to the border
